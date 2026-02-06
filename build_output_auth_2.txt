@@ -1,0 +1,113 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:25:2 Unresolved reference 'Composable'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:26:5 Functions which invoke @Composable functions must be marked with the @Composable annotation
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:27:20 Unresolved reference 'NavHostController'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:28:32 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:30:42 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:31:29 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:33:5 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:35:27 Unresolved reference 'navigate'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:35:36 Unresolved reference 'Screen'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:36:17 Unresolved reference 'popUpTo'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:36:25 Unresolved reference 'Screen'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:36:47 Unresolved reference 'inclusive'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:45:5 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:46:20 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:48:25 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:49:31 Unresolved reference 'Alignment'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:53:9 Unresolved reference 'Icon'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:56:24 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:56:41 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:57:20 Unresolved reference 'MaterialTheme'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:60:27 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:60:46 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:63:9 Unresolved reference 'Text'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:64:20 Unresolved reference 'stringResource'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:64:35 Unresolved reference 'R'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:65:21 Unresolved reference 'MaterialTheme'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:66:26 Unresolved reference 'FontWeight'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:69:27 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:69:45 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:72:9 Unresolved reference 'Text'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:74:21 Unresolved reference 'MaterialTheme'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:75:21 Unresolved reference 'MaterialTheme'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:78:27 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:78:46 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:81:9 Unresolved reference 'Button'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:85:24 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:89:17 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:90:32 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:90:49 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:91:29 Unresolved reference 'MaterialTheme'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:92:37 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:95:17 Unresolved reference 'Text'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:95:22 Unresolved reference 'stringResource'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:95:37 Unresolved reference 'R'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:99:27 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:99:46 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:102:9 Unresolved reference 'OutlinedButton'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:104:31 Unresolved reference 'navigate'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:104:40 Unresolved reference 'Screen'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:106:24 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:108:13 Unresolved reference 'Text'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:108:18 Unresolved reference 'stringResource'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/auth/LoginScreen.kt:108:33 Unresolved reference 'R'.
+
+[Incubating] Problems report is available at: file:///Users/tony/ai-app/qiuyou-tennis-app/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 5s
+29 actionable tasks: 2 executed, 27 up-to-date

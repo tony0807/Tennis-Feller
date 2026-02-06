@@ -1,0 +1,88 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:kspDebugKotlin
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:26:49 Conflicting import: imported name 'MyActivitiesViewModel' is ambiguous.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:29:49 Conflicting import: imported name 'MyActivitiesViewModel' is ambiguous.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:32:2 Unresolved reference 'Composable'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:33:5 Functions which invoke @Composable functions must be marked with the @Composable annotation
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:34:20 Unresolved reference 'NavHostController'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:35:40 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:37:50 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:38:48 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:46:5 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:50:36 Unresolved reference 'stringResource'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:50:51 Unresolved reference 'R'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:52:62 Unresolved reference 'navigateUp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:57:17 Unresolved reference 'TabRow'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:59:25 Unresolved reference 'Tab'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:62:38 @Composable invocations can only happen from the context of a @Composable function
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:69:24 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:72:21 Unresolved reference 'CircularProgressIndicator'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:72:58 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:72:73 Unresolved reference 'Alignment'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:77:36 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:77:51 Unresolved reference 'Alignment'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:86:40 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:86:55 Unresolved reference 'Alignment'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:92:40 Unresolved reference 'Modifier'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:93:63 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:94:75 Unresolved reference 'dp'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:99:37 No value passed for parameter 'onLocationClick'.
+e: file:///Users/tony/ai-app/qiuyou-tennis-app/app/src/main/java/com/qiuyou/tennis/presentation/screens/profile/MyActivitiesScreen.kt:100:55 Unresolved reference 'navigate'.
+
+[Incubating] Problems report is available at: file:///Users/tony/ai-app/qiuyou-tennis-app/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 10s
+29 actionable tasks: 2 executed, 27 up-to-date
